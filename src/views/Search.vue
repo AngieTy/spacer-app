@@ -34,6 +34,7 @@ export default {
     };
   },
   methods: {
+    // blebleble
     // debounce przyjmuje 2 argumeny: funkcje ktora chcemy wykonac i czas po jakim ta funkcja ma sie wykonac
     handleInput: debounce(function() {
       axios
