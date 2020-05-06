@@ -9,13 +9,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "lodash.debounce": "^4.0.8",
-=======
-    "core-js": "^3.6.4",
->>>>>>> f133d23cf5fb6286048361fc934620ec2b5b685c
     "vue": "^2.6.11",
     "vue-router": "^3.1.6"
   },
@@ -25,30 +21,20 @@
     "@vue/cli-plugin-router": "~4.3.0",
     "@vue/cli-plugin-unit-jest": "~4.3.0",
     "@vue/cli-service": "~4.3.0",
-<<<<<<< HEAD
     "@vue/eslint-config-standard": "^5.1.2",
-=======
-    "@vue/eslint-config-airbnb": "^5.0.2",
->>>>>>> f133d23cf5fb6286048361fc934620ec2b5b685c
     "@vue/test-utils": "1.0.0-beta.31",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
-<<<<<<< HEAD
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-=======
->>>>>>> f133d23cf5fb6286048361fc934620ec2b5b685c
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-<<<<<<< HEAD
   },
   "prettier": {
     "singleQuote": true
-=======
->>>>>>> f133d23cf5fb6286048361fc934620ec2b5b685c
   }
 }

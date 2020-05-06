@@ -1,15 +1,8 @@
-/* eslint-disable space-before-function-paren */
 <template>
   <div class="wrapper">
     <div class="search">
       <label for="search">Search</label>
-      <input
-        type="text"
-        id="search"
-        name="search"
-        v-model="searchValue"
-        v-on:input="handleInput"
-      />
+      <input type="text" id="search" name="search" v-model="searchValue" v-on:input="handleInput" />
       <ul>
         <li v-for="item in results" v-bind:key="item.data[0].nasa_id">
           <p>{{ item.data[0].description }}</p>
